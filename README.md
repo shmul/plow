@@ -125,6 +125,7 @@ Flags:
       --socks5=ip:port         Socks5 proxy
       --auto-open-browser      Specify whether auto open browser to show Web charts
       --[no-]clean             Clean the histogram bar once its finished. Default is true
+      --[no-]summary           Only print the summary without realtime reports
       --version                Show application version.
 
   Flags default values also read from env PLOW_SOME_FLAG, such as PLOW_TIMEOUT=5s equals to --timeout=5s
